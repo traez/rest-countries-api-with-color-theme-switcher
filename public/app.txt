@@ -1,0 +1,53 @@
+------------------------------------------------------------------------------------------Main
+------------------------------------------------------------------------Aside 1fr
+---------------------------------------------------------Header
+---------------------------------------------------------Menu 
+--------------------------------------------H1 
+--------------------------------------------Div
+-----------------------------------Div Img
+-----------------------------------H2
+------------------------------------------------------------------------Article 2fr
+---------------------------------------------------------Input
+---------------------------------------------------------Select Option
+------------------------------------------------------------------------Section Auto
+---------------------------------------------------------Nav X 100
+
+----------------------------------------------
+https://catherineisonline.github.io/rest-countries
+https://github.com/catherineisonline/rest-countries
+
+https://www.youtube.com/watch?v=gSSsZReIFRk
+Next.js App Router: Routing, Data Fetching, Caching
+
+https://restcountries.com/v3.1/all
+https://restcountries.com/v3.1/name/argentina
+https://restful-countries.vercel.app/south%20africa
+%20 = spaces
+----------------------------------------------
+-Things learnt:
+-Practical project use of Context API https://nextjs.org/docs/getting-started/react-essentials#context
+-well-written code should be self-explanatory, and comments should be used to provide additional context or clarification on why certain decisions were made in the code. (Why and not what). Context API adoption made code modular, easier to build, and comments easier to fill in.
+-By setting outline: none;, you're instructing the browser not to display an outline when the <input> element is focused,
+-importance of flexible height (grid-template: 1fr 2fr minmax(545px, auto) / auto;) so page doesn't collapse and distort when no content
+-Change color of the placeholder text .mhd-inp::placeholder {color: var(--white); }
+----------------------------------------------
+<div className="pic">
+        <Image
+          src="pix.jpg"
+          alt=""
+          fill
+          sizes="(min-width: 400px) 100vw"
+        />
+</div>
+
+.pic{
+  width:400px;
+  height: 400px;
+  position: relative;
+}
+----------------------------------------------
+----------------------------------------------
+----------------------------------------------
+----------------------------------------------
+
+

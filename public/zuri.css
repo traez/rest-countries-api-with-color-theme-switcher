@@ -83,11 +83,6 @@ body {
   padding: 1rem 1rem 1rem 1rem;
   box-shadow: 0px 8px 10px -6px hsl(0, 0%, 88%);
 }
-.ddl-aside {
-  grid-area: top;
-  padding: 1rem 1rem 1rem 1rem;
-  box-shadow: 0px 8px 10px -6px hsl(0, 0%, 88%);
-}
 .mdd-aside {
   grid-area: top;
   padding: 1rem 1rem 1rem 1rem;
@@ -110,12 +105,6 @@ body {
   margin-bottom: 0.5rem;
 }
 .mhl-a {
-  font-size: 0.6rem;
-}
-.ddl-a {
-  font-size: 0.6rem;
-}
-.mdl-a {
   font-size: 0.6rem;
 }
 a:hover {
@@ -161,24 +150,6 @@ h1:hover {
   width: 7rem;
   box-shadow: 0 0 3px 3px hsl(0, 0%, 88%);
 }
-.ddl-mode {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  width: 7rem;
-  box-shadow: 0 0 3px 3px hsl(0, 0%, 88%);
-}
-.mdl-mode {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-  width: 7rem;
-  box-shadow: 0 0 3px 3px hsl(0, 0%, 88%);
-}
 .mhd-mode {
   display: flex;
   flex-flow: row;
@@ -206,7 +177,7 @@ h1:hover {
   width: 7rem;
   box-shadow: 0 0 3px 3px hsl(180, 0%, 12%);
 }
-.ddd-mode:hover, .ddl-mode:hover, .mdd-mode:hover, .mhd-mode:hover, .mhl-mode:hover, .mdl-mode:hover {
+.ddd-mode:hover, .mdd-mode:hover, .mhd-mode:hover, .mhl-mode:hover {
   cursor: pointer;
   border: 1px solid gray;
 }
@@ -394,6 +365,9 @@ nav:hover {
   padding-left: 1rem;
 }
 .mhl-h3 {
+  font-size: 1.5rem;
+}
+.mhd-h3 {
   font-size: 1.5rem;
 }
 .mhl-li {
@@ -584,18 +558,12 @@ nav:hover {
 }
 .mdl-bordergroup {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
   justify-content: flex-start;
   align-items: center;
   gap: 0.5rem;
 }
 .mdl-bordercountry {
-  padding: 0.4rem 0.7rem;
-  box-shadow: 0 0 3px 3px hsl(0, 0%, 88%);
-  font-size: 0.8rem;
-  font-weight: bold;
-}
-.ddl-bordercountry {
   padding: 0.4rem 0.7rem;
   box-shadow: 0 0 3px 3px hsl(0, 0%, 88%);
   font-size: 0.8rem;
@@ -615,7 +583,6 @@ nav:hover {
 }
 .mdl-bordercountry:hover,
 .mdd-bordercountry:hover,
-.ddl-bordercountry:hover,
 .ddd-bordercountry:hover {
   cursor: pointer;
   border: 1px solid gray;

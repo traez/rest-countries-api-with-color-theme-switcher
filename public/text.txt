@@ -1,0 +1,1 @@
+i am going to copy most of the logic  above to fit into my StateProvide() component below. But  const regionOptions looks out of place. kindly advice
